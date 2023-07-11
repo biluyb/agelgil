@@ -1,0 +1,17 @@
+{
+  "name": "agelgil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "npx tailwind -i input.css -o dist/styles.css --watch"
+  },
+  "author": "Leul Webshet",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.25",
+    "tailwindcss": "^3.3.2"
+  }
+}
